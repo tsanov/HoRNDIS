@@ -132,6 +132,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 42BCD8991645AFC500683BF7;
@@ -315,10 +316,12 @@
 				GCC_PREFIX_HEADER = "HoRNDIS-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HoRNDIS-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULE_NAME = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				MODULE_VERSION = 9.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuawise.kexts.HoRNDIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -334,10 +337,12 @@
 				GCC_PREFIX_HEADER = "HoRNDIS-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "HoRNDIS-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULE_NAME = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				MODULE_VERSION = 9.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuawise.kexts.HoRNDIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
